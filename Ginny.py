@@ -9,7 +9,6 @@ ginny=pyttsx3.init()
 r=sr.Recognizer()
 
 terminateCommands=["bye","exit","stop","goodbye"]
-jokes=[] # if you want slightly better jokes
 check=True
 
 voices = ginny.getProperty("voices")
